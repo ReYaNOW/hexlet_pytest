@@ -8,6 +8,7 @@ packages = [{include = "hexlet_pytest"}]
 
 [tool.poetry.dependencies]
 python = "^3.11"
+funcy = "^1.18"
 
 
 [tool.poetry.group.dev.dependencies]

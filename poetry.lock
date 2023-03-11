@@ -32,6 +32,18 @@ files = [
 ]
 
 [[package]]
+name = "funcy"
+version = "1.18"
+description = "A fancy and practical functional tools"
+category = "main"
+optional = false
+python-versions = "*"
+files = [
+    {file = "funcy-1.18-py2.py3-none-any.whl", hash = "sha256:00ce91afc850357a131dc54f0db2ad8a1110d5087f1fa4480d7ea3ba0249f89d"},
+    {file = "funcy-1.18.tar.gz", hash = "sha256:15448d19a8ebcc7a585afe7a384a19186d0bd67cbf56fb42cd1fd0f76313f9b2"},
+]
+
+[[package]]
 name = "iniconfig"
 version = "2.0.0"
 description = "brain-dead simple config-ini parsing"
@@ -96,4 +108,4 @@ testing = ["argcomplete", "hypothesis (>=3.56)", "mock", "nose", "pygments (>=2.
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "031e2ae5bff7358e6a9f5f25b4235a0ce34b4656952842152d35f958c680769e"
+content-hash = "14454b36f020d4ef851780b0601d41d5b348cb55893de4ffca4ebdbe7963b0f6"
